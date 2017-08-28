@@ -24,3 +24,9 @@ inoremap { {}<LEFT>
 inoremap {<ENTER> {}<LEFT><CR><ESC><S-o>
 inoremap ( ()<ESC>i
 inoremap (<ENTER> ()<LEFT><CR><ESC><S-o>
+inoremap <C-f> <RIGHT>
+inoremap <C-b> <LEFT>
+inoremap <C-n><ESC> <ESC>ui
+inoremap <C-p><ESC> <ESC>ui
+inoremap <C-n><ENTER> <ESC>a
+inoremap <C-p><ENTER> <ESC>a
