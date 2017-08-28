@@ -20,3 +20,7 @@ set tabstop=4
 set smarttab
 set background=dark
 set clipboard=unnamedt
+inoremap { {}<LEFT>
+inoremap {<ENTER> {}<LEFT><CR><ESC><S-o>
+inoremap ( ()<ESC>i
+inoremap (<ENTER> ()<LEFT><CR><ESC><S-o>
