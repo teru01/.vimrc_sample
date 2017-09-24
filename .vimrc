@@ -8,7 +8,7 @@ set ignorecase
 set smartcase
 
 set autoindent
-
+set nocompatible
 set ruler
 set number
 set wildmenu
